@@ -80,4 +80,4 @@ def file_organizer(src_path: str, dst_path: str) -> None:
             print(f"File {file_number} moved successfully")
 
 
-file_organizer(r"C:\Users\Alpha\Pictures\Screenshots\Screenshots", r"C:\Users\Alpha\Pictures")
+file_organizer(r"Enter the source path here (absolute path)", r"Enter the destination path here (absolute path)")
