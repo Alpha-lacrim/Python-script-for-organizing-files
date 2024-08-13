@@ -55,7 +55,7 @@ def file_organizer(src_path: str, dst_path: str) -> None:
                 if file_name.lower().endswith(ext):
                     try:
                         os.mkdir("Videos")
-                        print(f"\"Videos\" Folder {year} created")
+                        print(f"\"Videos\" folder {year} created")
                     except FileExistsError:
                         pass
 
